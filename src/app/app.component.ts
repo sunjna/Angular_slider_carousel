@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  jumbotronImage = "https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
   title = 'angularProject';
+  imageClickedSlider($event) {
+    this.jumbotronImage = $event
+  }
 }

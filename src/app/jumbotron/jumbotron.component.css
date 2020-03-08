@@ -1,0 +1,43 @@
+.container {
+    cursor: pointer;
+}
+
+.contaninerPage {
+    overflow: hidden;
+}
+
+.styleCentre {
+    position: relative;
+    left: 45%;
+}
+
+.styleBody {
+    background-color: beige;
+    border: solid blue 2px;
+    overflow: hidden;
+}
+
+.jumbotronStyle {
+    position: relative;
+    height: 370px;
+    left: 10%;
+    width: 80%;
+}
+
+.styleImage {
+    padding: 10px;
+    height: 30%;
+    width: 30%;
+}
+
+.styleBox {
+    padding-top: 40px;
+    position: relative;
+}
+
+.button {
+    font-size: 40px;
+    position: relative;
+    bottom: 70px;
+    cursor: pointer;
+}
